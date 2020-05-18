@@ -12,33 +12,11 @@ import java.util.UUID;
 
 public class HologramPlayersManager {
 
-    private static HologramPlayersManager instance;
-
     /**
      * @return the HologramPlayersManager's instance.
      */
     public static HologramPlayersManager getInstance() {
         return null;
-    }
-
-    /**
-     * Creates a new HoloPlayer and keeps a reference to it.
-     * If a HoloPlayer is already associated to the given UUID this method does nothing and returns null.
-     *
-     * @param uuid the Bukkit Player's UUID.
-     * @return the HoloPlayer's instance if it was created; null otherwise.
-     */
-    public HologramPlayer createHologramPlayer(UUID uuid) {
-        return null;
-    }
-
-    /**
-     * Deletes a HoloPlayer and its reference.
-     *
-     * @param uuid the Bukkit Player's UUID used to create the HoloPlayer which needs to be deleted.
-     */
-    public void deleteHologramPlayer(UUID uuid) {
-
     }
 
     /**

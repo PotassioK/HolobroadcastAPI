@@ -78,11 +78,4 @@ public class HologramPlayer {
      */
     public void setHUDDistance(int hudDistance) {
     }
-
-    /**
-     * Destroys all of the HologramPlayer's Holograms and stops the BukkitTask
-     * which was updating its Holograms.
-     */
-    public void destroy() {
-    }
 }
